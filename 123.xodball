@@ -1,0 +1,116 @@
+{
+  "name": "",
+  "patches": {
+    "@/main": {
+      "links": {
+        "BkYgDT7wQ": {
+          "id": "BkYgDT7wQ",
+          "input": {
+            "nodeId": "rJCGUamvQ",
+            "pinKey": "r1bVLR_BPJW"
+          },
+          "output": {
+            "nodeId": "BkO08aXvm",
+            "pinKey": "BkoeN9Ay7"
+          }
+        },
+        "H1UewTQwX": {
+          "id": "H1UewTQwX",
+          "input": {
+            "nodeId": "rJCGUamvQ",
+            "pinKey": "SJMVU0urvkZ"
+          },
+          "output": {
+            "nodeId": "SycCSamw7",
+            "pinKey": "B1gI0urv1W"
+          }
+        },
+        "HyI-STXPQ": {
+          "id": "HyI-STXPQ",
+          "input": {
+            "nodeId": "S12ySpXDX",
+            "pinKey": "SkbLqKdUW"
+          },
+          "output": {
+            "nodeId": "BJn3VaQwm",
+            "pinKey": "BJllkG0Ub"
+          }
+        },
+        "SyAJIpQwX": {
+          "id": "SyAJIpQwX",
+          "input": {
+            "nodeId": "SycCSamw7",
+            "pinKey": "SyLCdSwJZ"
+          },
+          "output": {
+            "nodeId": "BJn3VaQwm",
+            "pinKey": "ryguFKiSlQ"
+          }
+        }
+      },
+      "nodes": {
+        "BJn3VaQwm": {
+          "boundLiterals": {
+            "BJllkG0Ub": "3"
+          },
+          "id": "BJn3VaQwm",
+          "position": {
+            "x": -102,
+            "y": -204
+          },
+          "type": "xod/common-hardware/hc-sr04-ultrasonic-range"
+        },
+        "BkO08aXvm": {
+          "id": "BkO08aXvm",
+          "position": {
+            "x": 34,
+            "y": -102
+          },
+          "type": "xod/common-hardware/analog-sensor"
+        },
+        "S12ySpXDX": {
+          "id": "S12ySpXDX",
+          "position": {
+            "x": -136,
+            "y": -204
+          },
+          "type": "xod/units/m-to-cm"
+        },
+        "SycCSamw7": {
+          "boundLiterals": {
+            "B1gI0urv1W": "True"
+          },
+          "id": "SycCSamw7",
+          "position": {
+            "x": -102,
+            "y": -102
+          },
+          "type": "xod/gpio/digital-read"
+        },
+        "rJCGUamvQ": {
+          "boundLiterals": {
+            "SJMVU0urvkZ": "True"
+          },
+          "id": "rJCGUamvQ",
+          "position": {
+            "x": -68,
+            "y": 0
+          },
+          "type": "xod/core/and"
+        },
+        "rJr-dpQvQ": {
+          "boundLiterals": {
+            "HJ6HsEngZ": "True"
+          },
+          "id": "rJr-dpQvQ",
+          "position": {
+            "x": -68,
+            "y": 102
+          },
+          "type": "xod/gpio/digital-write"
+        }
+      },
+      "path": "@/main"
+    }
+  }
+}
